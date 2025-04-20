@@ -1,19 +1,15 @@
 {
-  "name": "Arabic Cloudstream Repo",
-  "description": "Cloudstream plugins for Arabic providers",
+  "name": "ArabicRepo",
+  "description": "Arabic Cloudstream extensions",
   "manifestVersion": 1,
-  "pluginList": [
+  "plugins": [
     {
       "name": "Akwam",
-      "path": "AkwamProvider",
-      "description": "Akwam streaming plugin",
-      "version": 1
-    },
-    {
-      "name": "Animeiat",
-      "path": "AnimeiatProvider",
-      "description": "Animeiat Arabic anime plugin",
-      "version": 1
+      "package": "com.akwam",
+      "versionCode": 1,
+      "versionName": "1.0",
+      "url": "https://codeberg.org/revlin/ArabicRepo/raw/branch/main/AkwamProvider/build/outputs/plugin/AkwamProvider.cs3",
+      "description": "Arabic content from Akwam"
     }
   ]
 }
