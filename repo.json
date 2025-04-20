@@ -1,6 +1,19 @@
 {
-  "name": "ArabicRepo",
-  "description": "Cloudstream plugins in Arabic",
+  "name": "Arabic Cloudstream Repo",
+  "description": "Cloudstream plugins for Arabic providers",
   "manifestVersion": 1,
-  "pluginList": []
+  "pluginList": [
+    {
+      "name": "Akwam",
+      "path": "AkwamProvider",
+      "description": "Akwam streaming plugin",
+      "version": 1
+    },
+    {
+      "name": "Animeiat",
+      "path": "AnimeiatProvider",
+      "description": "Animeiat Arabic anime plugin",
+      "version": 1
+    }
+  ]
 }
