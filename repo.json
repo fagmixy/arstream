@@ -1,15 +1,9 @@
 {
-  "name": "ArabicRepo",
-  "description": "Arabic Cloudstream extensions",
-  "manifestVersion": 1,
-  "plugins": [
-    {
-      "name": "Akwam",
-      "package": "com.akwam",
-      "versionCode": 1,
-      "versionName": "1.0",
-      "url": "https://codeberg.org/revlin/ArabicRepo/raw/branch/main/AkwamProvider/build/outputs/plugin/AkwamProvider.cs3",
-      "description": "Arabic content from Akwam"
-    }
-  ]
+      "name": "ArabicRepo",
+          "description": "Updating the Cloudstream Arabic Provider. Feel free to join the Cloudstream Discord server for the latest information.",
+              "manifestVersion": 1,
+                  "pluginLists": [
+                        "https://codeberg.org/fagmixy/ArabicRepo/raw/main/plugins.json"
+                            ]
+                              }
 }
