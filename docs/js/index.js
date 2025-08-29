@@ -21,7 +21,7 @@ var template = `
 
 
 
-var rawRepoUrl = "https://raw.githubusercontent.com/ImZaw/cloudstream-extensions-arabic/builds/repo.json"
+var rawRepoUrl = "https://raw.githubusercontent.com/fagmixy/arstream/builds/repo.json"
 const urlSearchParams = new URLSearchParams(window.location.search);
 if(urlSearchParams.get("url")) rawRepoUrl = urlSearchParams.get("url")
 $.getJSON( rawRepoUrl , function( data ) {
